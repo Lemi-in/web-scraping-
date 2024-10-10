@@ -1,7 +1,8 @@
 {
     "watch": ["src"],
-    "ignore": ["movies.json", "node_modules"],
-    "ext": "ts",
-    "exec": "ts-node src/index.ts"
+    "ignore": ["node_modules/*", "movies.json", "*.log"],
+    "ext": "js,json",
+    "exec": "node src/index.js",
+    "delay": 2
   }
   
